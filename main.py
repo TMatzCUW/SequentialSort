@@ -81,9 +81,10 @@ def mergeSort(arr):
             arr[k] = R[j]
             j += 1
             k += 1
-    print(arr)
+    return arr
 
 SelctionSort(stuffy)
 InsertionSort(stuffy)
 BubbleSort(stuffy)
 mergeSort(stuffy)
+print(stuffy)
